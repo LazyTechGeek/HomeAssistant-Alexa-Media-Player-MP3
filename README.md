@@ -17,7 +17,6 @@ sample.mp3 → sample-Converted.mp3
 
 # Node-Red process flow code (runs once)
 
-``
 alias: New Mail Notify
 description: ""
 triggers:
@@ -38,9 +37,7 @@ actions:
 mode: single
 
 # Audomation Sample Code (runs twice)
-``
 
-``
 alias: New Mail Notify
 description: ""
 triggers:
@@ -64,7 +61,6 @@ actions:
       minutes: 0
       seconds: 15
 mode: single
-``
 
 # Node-Red process flow code
 
