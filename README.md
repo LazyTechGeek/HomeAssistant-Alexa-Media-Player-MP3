@@ -15,54 +15,6 @@ https://github.com/LazyTechGeek/Alexa-Media-Player/blob/main/MP3ToAlexaConverter
 Example:
 sample.mp3 → sample-Converted.mp3
 
-# Automation Sample Code (runs once)
-````
-alias: New Mail Notify
-description: ""
-triggers:
-  - entity_id: binary_sensor.vibration_sensor_postbox_vibration
-    from: "off"
-    to: "on"
-    trigger: state
-conditions: []
-actions:
-  - data:
-      message: >-
-        <audio
-        src='https://4321demodave.duckdns.org/local/mp3/mail.mp3'/>
-      data:
-        type: tts
-    action: notify.alexa_media_dave_s_echo_spot
-  - delay: "00:05:00"
-mode: single
-````
-
-# Automation Sample Code (runs twice)
-````
-alias: New Mail Notify
-description: ""
-triggers:
-  - entity_id: binary_sensor.vibration_sensor_postbox_vibration
-    from: "off"
-    to: "on"
-    trigger: state
-conditions: []
-actions:
-  - repeat:
-      count: 2
-      sequence:
-        - data:
-            message: <audio src='https://4321demodave.duckdns.org/local/mp3/mail.mp3'/>
-            data:
-              type: tts
-          action: notify.alexa_media_dave_s_echo_spot
-        - delay: "00:00:05"
-  - delay:
-      hours: 0
-      minutes: 0
-      seconds: 15
-mode: single
-````
 # Node-Red process flow code
 
 ``
