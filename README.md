@@ -16,6 +16,12 @@ https://github.com/LazyTechGeek/Alexa-Media-Player/blob/main/MP3ToAlexaConverter
 Example:
 sample.mp3 → sample-Converted.mp3
 
+# Automation (run once version)
+https://github.com/LazyTechGeek/HomeAssistant-Alexa-Media-Player-MP3/blob/main/youve-got-mail-single-play.yaml
+
+# Automation (run twice version)
+https://github.com/LazyTechGeek/HomeAssistant-Alexa-Media-Player-MP3/blob/main/youve-got-mail-double-play.yaml
+
 # Node-Red process flow code
 
 ``
