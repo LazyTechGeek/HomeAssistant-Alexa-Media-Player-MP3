@@ -1,6 +1,6 @@
 🎵 Alexa Media Player – MP3 Converter Tool
 Convert your .mp3 files into a format compatible with Alexa Media Player in Home Assistant.
-video here: https://youtu.be/ZT3CqgAZGs0
+video here: https://youtu.be/Jkkq9sz5s-k
 
 📥 Download
 🔗 Download the tool (7-Zip format):
