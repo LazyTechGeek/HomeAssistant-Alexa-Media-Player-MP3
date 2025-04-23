@@ -1,0 +1,23 @@
+alias: New Mail Notify
+description: ""
+triggers:
+  - entity_id: binary_sensor.**YourZigbeeSensor**
+    from: "off"
+    to: "on"
+    trigger: state
+conditions: []
+actions:
+  - repeat:
+      count: 2
+      sequence:
+        - data:
+            message: <audio src='https://**your-external-url**/local/mp3/mail.mp3'/>
+            data:
+              type: tts
+          action: notify.alexa_media_**YourAmazonEchoDevice**
+        - delay: "00:00:05"
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 15
+mode: single
