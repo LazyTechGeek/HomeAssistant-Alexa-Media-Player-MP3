@@ -15,7 +15,7 @@ https://github.com/LazyTechGeek/Alexa-Media-Player/blob/main/MP3ToAlexaConverter
 Example:
 sample.mp3 → sample-Converted.mp3
 
-# Node-Red process flow code (runs once)
+# Automation Sample Code (runs once)
 
 alias: New Mail Notify
 description: ""
@@ -36,7 +36,7 @@ actions:
   - delay: "00:05:00"
 mode: single
 
-# Audomation Sample Code (runs twice)
+# Automation Sample Code (runs twice)
 
 alias: New Mail Notify
 description: ""
