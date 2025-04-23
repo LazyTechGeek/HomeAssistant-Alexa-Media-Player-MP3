@@ -16,7 +16,7 @@ Example:
 sample.mp3 → sample-Converted.mp3
 
 # Automation Sample Code (runs once)
-
+````
 alias: New Mail Notify
 description: ""
 triggers:
@@ -35,9 +35,10 @@ actions:
     action: notify.alexa_media_dave_s_echo_spot
   - delay: "00:05:00"
 mode: single
+````
 
 # Automation Sample Code (runs twice)
-
+````
 alias: New Mail Notify
 description: ""
 triggers:
@@ -61,7 +62,7 @@ actions:
       minutes: 0
       seconds: 15
 mode: single
-
+````
 # Node-Red process flow code
 
 ``
