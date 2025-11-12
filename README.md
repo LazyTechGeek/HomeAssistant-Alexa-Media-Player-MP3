@@ -22,6 +22,9 @@ https://github.com/LazyTechGeek/HomeAssistant-Alexa-Media-Player-MP3/blob/main/y
 # Automation (run twice version)
 https://github.com/LazyTechGeek/HomeAssistant-Alexa-Media-Player-MP3/blob/main/youve-got-mail-double-play.yaml
 
+# Automation (run twice version) Using Visual Editor
+https://github.com/LazyTechGeek/HomeAssistant-Alexa-Media-Player-MP3/blob/main/youve-got-mail-double-play_(Using-Visual-Editor).pdf
+
 # Node-Red process flow code
 
 ``
